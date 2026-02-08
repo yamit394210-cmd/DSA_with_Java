@@ -1,5 +1,7 @@
 package basic;
 
+import java.util.Scanner;
+
 public class ModulusProperties {
     public static void main(String[] args) {
         //1. a % b = a if(a < b)
@@ -8,8 +10,9 @@ public class ModulusProperties {
         //4. (-a) % (-b) = -(remainder)
         //remainder ka sense int mein banta hai double mein nahi
 
-        int a = -3;
-        int b = -5;
+        int a = -9;
+        int b = 10;
         System.out.println(a%b);
+
     }
 }
