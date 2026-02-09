@@ -3,7 +3,8 @@ package Searching;
 public class ArrangingCoins {
     public static void main(String[] args) {
 //        Important Formula => k = -1+(squareOf8n+1)/2
-        int n = 14*8+1;
+//        Time Complexity = O(logn)
+        int n = 13*8+1;
         int low = 1;
         int high = n;
         int mid = 0;
@@ -22,6 +23,7 @@ public class ArrangingCoins {
                  low = mid+1;
             }
         }
+
         System.out.println((-1+sqrt)/2);
     }
 }
