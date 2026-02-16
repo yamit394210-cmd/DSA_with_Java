@@ -13,9 +13,9 @@ public class ReverseArray {
 //        for (int ele : arr){
 //            System.out.println(ele+" ");
 //        }
-//        Another method to don same thing
-        int i = 1;
-        int j = arr.length-2;
+//        Another method to done same thing
+        int i = 0;
+        int j = arr.length-1;
         while(i < j){
             int temp = arr[i];
             arr[i] = arr[j];

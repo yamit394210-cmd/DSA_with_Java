@@ -4,26 +4,23 @@ public class FindSecondMax {
     public static void main(String[] args) {
 
         int[] arr = {-10, -20, -30, -40, -5};
-        int min = Integer.MIN_VALUE;
-        for(int i = 0; i < arr.length; i++){
-            if(arr[i]> min){
-                min = arr[i];
+        int max = Integer.MIN_VALUE;
 
+        for(int i = 0; i < arr.length; i++){
+            if(arr[i] > max){
+                max = arr[i];
             }
         }
-        System.out.println("First Max Element "+min);
+        int secondMax = Integer.MIN_VALUE;
 
-        int found = Integer.MIN_VALUE;
-        for (int i = 0; i < arr.length; i++){
-            if(arr[i] == min){
+        for(int j = 0; j < arr.length; j++){
+            if(arr[j] == max){
                 continue;
             }
-            else {
-                if(arr[i] > found){
-                    found = arr[i];
-                }
+            else if(arr[j] > secondMax){
+                secondMax = arr[j];
             }
         }
-        System.out.print("Second Max Element "+found);
+        System.out.print("Second Max Element "+ secondMax);
     }
 }

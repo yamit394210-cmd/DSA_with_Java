@@ -23,8 +23,8 @@ public class CharValues {
 //        System.out.println(z+z);
 
 //        Integer to Character
-        int b = 65;
-        System.out.println((char) b);
+        int b = 97;
+        System.out.println((char)b);
     }
 
 

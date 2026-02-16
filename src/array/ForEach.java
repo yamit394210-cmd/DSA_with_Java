@@ -9,9 +9,9 @@ public class ForEach {
 //            System.out.print(x+" ");
 //        }
 
-//        for(int x : arr){
-//           arr[1]= 1;
-//        }
+        for(int x : arr){
+           arr[1]= x;
+        }
         for(int x : arr){
             System.out.print(x+" ");
         }

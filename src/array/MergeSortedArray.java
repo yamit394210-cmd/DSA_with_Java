@@ -2,9 +2,9 @@ package array;
 
 public class MergeSortedArray {
     public static void main(String[] args) {
-        int[] arr1 ={1, 3, 5, 6, 8, 12};
-        int[] arr2 = {2, 4, 7, 9};
-        int[] merge = new int[10];
+        int[] arr1 ={1, 6, 8, 18};
+        int[] arr2 = {2, 13, 14, 16, 17};
+        int[] merge = new int[13];
 
         int i = 0; // i = 0 1 2 3 4 5
         int j = 0; // j = 0 1 2 3 4

@@ -8,14 +8,14 @@ public class IncrementDecrement {
 //        x-- = first use then decrement
 //        --x = first decrement then use
         int x = 10;
-        System.out.println(x++);
-        System.out.println(x);
-        System.out.println(++x);
-        System.out.println(x);
-        System.out.println(x--);
-        System.out.println(x);
-        System.out.println(--x);
-        System.out.println(x);
+        System.out.println(x++); //10
+        System.out.println(x); //11
+        System.out.println(++x); //12
+        System.out.println(x); //12
+        System.out.println(x--); //12
+        System.out.println(x); //11
+        System.out.println(--x); //10
+        System.out.println(x); //10
 
     }
 }

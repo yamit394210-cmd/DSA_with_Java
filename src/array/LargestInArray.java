@@ -10,7 +10,7 @@ public class LargestInArray {
 //        int[] arr = new int[num];
 //        System.out.print("Enter An Elements : ");
 
-        int[] arr = {-2, -3, -23, -4};
+        int[] arr = {-2, -3, -23, -4, -2, -5};
         // Input Procedure
 //        for (int i = 0; i < arr.length; i++){
 //            int x = sc.nextInt();
@@ -18,8 +18,8 @@ public class LargestInArray {
 //        }
 
         // Largest Number
-//        int max = arr[0]; //or = integer.Min.Value;
-        int max = -1; // if elements are positive+negative then -1 is ok but in term of
+        int max = arr[0]; //or = integer.Min.Value;
+//        int max = -1; // if elements are positive+negative then -1 is ok but in term of
         // all negative integers it throws false decision
 
         for (int i = 1; i < arr.length; i++){
